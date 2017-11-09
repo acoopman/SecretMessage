@@ -1,0 +1,4 @@
+  g++  `pkg-config --cflags opencv` encode.cpp -o encode `pkg-config --libs opencv`
+
+  g++  `pkg-config --cflags opencv` decode.cpp -o decode `pkg-config --libs opencv`
+
